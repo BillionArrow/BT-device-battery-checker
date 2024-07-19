@@ -33,7 +33,7 @@ You're good to go!
 ```
 Battery percentage of <device name> is: <xx>
 ```
-You may proceed to step 4.
+  You may proceed to step 4.
 
 3. If it returns the following 3 messages:
 ```
@@ -41,9 +41,8 @@ You may proceed to step 4.
 > Device $($device.FriendlyName) is not connected.
 > Battery property not found or is empty for $($device.FriendlyName).
 ```
-Follow the instructions inside the .ps1 file until the problem is fixed.
-4.
-If you receive the following messages:
+  Follow the instructions inside the .ps1 file until the problem is fixed.
+
 ## To-do
 - Make a setup script
 - write scripts to add task scheduler entries automatically
