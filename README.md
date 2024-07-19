@@ -4,7 +4,7 @@ A simple Powershell script that checks the battery percentage of a specified Blu
 - A Windows device
 - git
 - Python (any version will probably work, tested with 3.12)
-- plyer (for sending notifications) can be installed by entering `pip install plyer` into your terminal, 
+- plyer (for sending notifications)
 ## Installation
 1. Install git and python if you haven't already
 
