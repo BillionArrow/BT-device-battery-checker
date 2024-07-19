@@ -1,5 +1,5 @@
 # BT-device-battery-checker
-A simple Powershell script that checks the battery percentage of a specified Bluetooth device (e.g. keyboards, headphones etc.) using powershell and sends a warning through notifications that the battery level is low, prompts the user to recharge their device.
+A simple Powershell script that checks the battery percentage of a specified Bluetooth device (e.g. keyboards, headphones etc.) using powershell and sends a warning through notifications if the battery level is low.
 ## Requirements
 - A Windows device
 - git
@@ -34,6 +34,7 @@ You're good to go!
 Battery percentage of <device name> is: <xx>
 ```
 You may proceed to step 4.
+
 3. If it returns the following 3 messages:
 ```
 > Device $($device.FriendlyName) not found.
