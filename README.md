@@ -22,7 +22,7 @@ python -m venv bt_battery_checker
 ```
 pip install plyer
 ```
-1. Clone this repository into your venv:
+5. Clone this repository into your venv:
 ```
 git clone https://github.com/BillionArrow/BT-device-battery-checker/
 ```
