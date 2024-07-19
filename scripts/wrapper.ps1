@@ -1,14 +1,13 @@
-# Define the path to the PowerShell script
-$scriptPath = "$PSScriptRoot\keeb_battery_checker.ps1"
+# No idea how this works, but is necessary to run the script without flashing a fugly black terminal screen #for .2 seconds
 
-# Start the job to run the PowerShell script
+# Define the path to the PowerShell script
+$scriptPath = "$PSScriptRoot\bt_battery_checker.ps1"
+
 $job = Start-Job -ScriptBlock {
     param($path)
     & $path
 } -ArgumentList $scriptPath
 
-# Wait for the job to complete and retrieve the results
 $job | Wait-Job | Receive-Job
 
-# Optionally, remove the job after completion
 Remove-Job -Job $job

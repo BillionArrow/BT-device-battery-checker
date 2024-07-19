@@ -33,7 +33,7 @@ def check_battery_status(file_path):
         try:
             battery_percentage = int(content.split(':')[-1].strip())
             # You can play around with this if you want, remove the 3 apostrophes above ander under this piece of code
-            '''            above ander under this piece of code
+            '''    
             notification.notify(
                 title='Battery Status',
                 message=f'Your keyboard battery is at {battery_percentage}%',
