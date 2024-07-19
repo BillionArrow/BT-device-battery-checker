@@ -27,10 +27,22 @@ pip install plyer
 git clone https://github.com/BillionArrow/BT-device-battery-checker/
 ```
 You're good to go!
-## Usage
-(working on it)
-
+## Activation
+1. Open `bt_battery_checker.ps1` in powershell ISE, follow the instructions (simply add the device name on line 2)
+2. If it returns the following message:
+```
+Battery percentage of <device name> is: <xx>
+```
+You may proceed to step 4.
+3. If it returns the following 3 messages:
+```
+> Device $($device.FriendlyName) not found.
+> Device $($device.FriendlyName) is not connected.
+> Battery property not found or is empty for $($device.FriendlyName).
+```
+Follow the instructions inside the .ps1 file until the problem is fixed.
+4.
+If you receive the following messages:
 ## To-do
 - Make a setup script
-- automate the python code (right now it only sends a notif when the python file is ran manually)
 - write scripts to add task scheduler entries automatically
