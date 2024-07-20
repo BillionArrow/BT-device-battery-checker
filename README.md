@@ -43,6 +43,8 @@ Battery percentage of <device name> is: <xx>
 ```
   Follow the instructions inside the .ps1 file until the problem is fixed.
 
+4.  (not finished yet) Run the scheduler script to make your device run the files every 15 minutes.
+
 ## To-do
 - Make a setup script
 - write scripts to add task scheduler entries automatically
